@@ -1,0 +1,22 @@
+.bg-body-tertiary {
+    background-color: #000024 !important;
+  }
+  .navbar-nav {
+    color: gray;
+    margin: 0px;
+    width: 80%;
+    justify-content: center;
+  }
+  a {
+    color: gray !important;
+  }
+  a:hover {
+    color: blue !important;
+  }
+  .wallet-button {
+    margin-right: 60px;
+    border-radius: 20px !important;
+    --bs-btn-bg: none;
+    background-image: linear-gradient(to right, blue, purple) !important;
+  }
+  

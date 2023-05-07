@@ -1,0 +1,82 @@
+.symbol-container {
+    position: relative;
+    top: 25px;
+  }
+  
+  .form-wrapper {
+    color: #d3d3d3;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-color: #000024;
+  
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  label {
+    display: flex;
+  }
+  input {
+    border-color: transparent;
+    color: white !important;
+    margin: 5px 10px 20px 30px;
+  }
+  .form-control {
+    width: 80% !important;
+  }
+  .buy-button {
+    border-radius: 20px !important;
+    --bs-btn-bg: none;
+    background-image: linear-gradient(to right, blue, purple) !important;
+    margin: 5px 10px 10px 10px;
+  }
+  ::placeholder {
+    color: white !important;
+  }
+  .p-dropdown {
+    height: 35px;
+    background-color: #13274f !important;
+    margin: 10px 20px 15px 20px;
+    width: 80% !important;
+    border-color: transparent !important;
+  }
+  
+  .p-dropdown-panel,
+  .p-dropdown-header,
+  .p-dropdown-filter,
+  .p-dropdown {
+    background-color: #13274f !important;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .w-full {
+      width: 70% !important;
+    }
+  }
+  .currentCoin-price {
+    display: flex;
+    justify-content: space-around;
+  }
+  .p-dropdown .p-dropdown-label.p-placeholder {
+    position: relative;
+    top: -8px;
+    left: 12px;
+  }
+  .p-dropdown .p-dropdown-label {
+    position: relative;
+    top: -8px;
+    left: 12px;
+  }
+  .p-dropdown-panel
+    .p-dropdown-items
+    .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+    background-color: lightblue !important;
+  }
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    background-color: transparent !important;
+  }
+  
